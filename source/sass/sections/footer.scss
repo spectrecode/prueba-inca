@@ -31,17 +31,18 @@
                 text-decoration: underline;
             }
         }
-        .follow{
-            p{
-                font-family: $impact;
-                color: $white;
-                font-size: 16px;
-            }
-            a{
-                color: $letter;
-                i{
-                    font-size: 20px;
-                }
+        
+    }
+    .follow{
+        p{
+            font-family: $impact;
+            color: $white;
+            font-size: 16px;
+        }
+        a{
+            color: $letter;
+            i{
+                font-size: 20px;
             }
         }
     }

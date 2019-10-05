@@ -55,10 +55,10 @@ function javascript(){
 }
 function plugins(){
     return gulp.src([
-        'node_modules/bootstrap/dist/js/bootstrap.min.js',
-        './source/javascript/plugins/*.js'
+        'node_modules/bootstrap/dist/js/bootstrap.min.js'
+        // './source/javascript/plugins/*.js'
     ])
-        .pipe(concat('plugins.js') )
+        // .pipe(concat('plugins.js') )
         .pipe(uglify({
         compress:{
             drop_console:true

@@ -14,11 +14,14 @@
         padding: 9px 0 4px 0;
     }
     .regulation{
-        color: $white;
-        background-color: $wine;
-        font-family: $impact;
-        padding: 8px 30px;
-        box-shadow: 0px 4px 0px 0px $dark-wine;
+        a{
+            color: $white;
+            background-color: $wine;
+            font-family: $impact;
+            padding: 8px 30px;
+            box-shadow: 0px 4px 0px 0px $dark-wine;
+            width: 225px;
+        }
     }
     .category{
         h3{
@@ -32,6 +35,11 @@
                 font-size: 16px;
                 color: $black;
             }
+        }
+    }
+    .row:last-child{
+        p{
+            font-size: 12px;
         }
     }
 }

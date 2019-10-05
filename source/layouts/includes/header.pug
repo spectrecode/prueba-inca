@@ -1,18 +1,10 @@
 header
 	#header
 		.container
-			nav.navbar.navbar-expand-lg.align-items-end
+			nav.navbar.navbar-expand-md.align-items-end.px-md-0
 				.logo
-					img(src="img/logo_inka_reebok.png", alt="logo")
+					img(src="img/logo_inka_reebok_B.png", alt="logo")
 				.collapse.navbar-collapse.justify-content-end.options#navbarNav
-					//- .menu
-						//- .sesion
-						//- 	.user
-						//- 		.fa.far.fa-user
-						//- 		span Iniciar Sesión
-						//- 	.carrito
-						//- 		.fa.far.fa-shopping-cart
-						//- 		span.total 0
 					ul.navbar-nav.justify-content-between
 						li.nav-item
 							a(href='') HOME
@@ -24,12 +16,16 @@ header
 							a(href='') ESTILO DE VIDA
 						li.nav-item
 							a(href='') OCR
-			.sesion
-				.d-flex.justify-content-between.align-items-center
-					.user.d-flex.align-items-center.justify-content-end
+			.mb-info.d-flex.mx-n3.mx-sm-0
+				.d-none.d-block.d-md-none.text-center
+					div INFORMACION			
+				.sesion.d-flex.justify-content-around
+					button.navbar-toggler.d-none.d-block.d-md-none(type="button" data-toggle="collapse" data-target="#navbarNav")
+						i.fas.fa-bars
+					.user.d-flex.align-items-center.justify-content-end.pl-sm-0.pl-md-5
 						.fa.far.fa-user.fx-3
-						span Iniciar Sesión
-					.carrito.d-flex.align-items-center.justify-content-end
+						span.pl-2.d-none.d-md-block Iniciar Sesión
+					.carrito.d-flex.align-items-center.justify-content-end.pl-sm-0.pl-md-4 
 						.fa.far.fa-shopping-cart.fx-3
-						span.text-center.total 0
-	#bar.text-center.d-flex.justify-content-center.align-items-center #[i.fa.fas.fa-bullhorn] Sé un conquistador de nuestra próxima carrera #[a(href='') ¡Inscríbete!]
+						span.ml-2.text-center.rounded-circle.total 0
+	#bar.text-center.d-flex.justify-content-center.align-items-center #[i.fa.fas.fa-bullhorn] Sé un conquistador de nuestra próxima carrera #[a.d-none.d-md-block(href='') ¡Inscríbete!]

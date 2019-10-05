@@ -3,9 +3,6 @@ header{
     background-color: $dark-gray ;
     .logo{
       padding-bottom: 10px;
-      img{
-        width: 323px;
-      }
     }
     .options{
       font-family: $impact;
@@ -18,7 +15,7 @@ header{
             content:'';
             position: absolute;
             border-right: 1px solid #fff;
-            right: -24px;
+            right: -19px;
             width: 10px;
             height: 15px;
             top: 0;
@@ -40,37 +37,50 @@ header{
         }
       }
     }
-    .sesion{
+    .mb-info{
       font-size: 12px;
       color:#fff;
       font-family: arial;
       position: absolute;
       top: 0;
       right: 0;
-      width: 365px;
-      border-left: 35px solid transparent;
-      border-bottom: 50px solid #000;
-      >div{
-        width: 190px;
-        height: 50px;
+      width: 340px;
+      height: 50px;
+      &:before{
+        content: '';
         position: absolute;
-        padding-left: 15px;
+        width: 100%;
+        border-left: 33px solid transparent;
+        border-bottom: 50px solid #000;
+      }
+      > div:first-child{
+        background-color: $dark-gray;
+        font-family: $impact;
+        font-size: 14px;
+        width: 50%;
+        padding-top:13px;
+      }
+      .sesion{
+        z-index: 1;
         span{
-          margin-left: 10px;
-          font-size: 12px;
+          font-size: 14px;
         }
-        >div:last-child{
-          span{
-            background-color: #912226;
-            padding: 1px;
-            width: 18px;
-            height: 18px;
-            border-radius: 100%;
-          }
+        >div:first-child{
+          font-size: 20px;
         }
       }
-      .fa{
-        font-size: 30px;
+      .carrito{
+        span{
+          background-color: $dark-wine;
+          padding: 0px;
+          width: 18px;
+          height: 18px;
+          font-size: 12px;
+        }
+      }
+      i{
+        color:$white;
+        font-size:25px;
       }
     }
   }
@@ -86,8 +96,8 @@ header{
     a{
       color: #fff;
       text-decoration: underline;
-      font-weight: bold;
       padding-left: 10px;
+      font-size: 12px;
     }
   }
 }

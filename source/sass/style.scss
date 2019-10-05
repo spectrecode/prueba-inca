@@ -1,11 +1,12 @@
+@import "globals/variables";
+@import "globals/fonts";
+
+
 @import "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 @import "./node_modules/@fortawesome/fontawesome-free/scss/brands";
 @import "./node_modules/@fortawesome/fontawesome-free/scss/regular";
 @import "./node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "./node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
-
-@import "globals/variables";
-@import "globals/fonts";
 
 *{
 	margin: 0;
@@ -13,8 +14,14 @@
 	box-sizing: border-box;
 	font-size: 18px;
 }
+.container{
+	overflow: hidden;
+}
 a{
 	&:active{
+		text-decoration: none;
+	}
+	&:hover{
 		text-decoration: none;
 	}
 }
@@ -25,3 +32,5 @@ a{
 @import "./sections/news";
 @import "./sections/sponsors";
 @import "./sections/footer";
+
+@import "globals/mediaqueries";
