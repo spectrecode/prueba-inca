@@ -1,1 +1,1 @@
-document.querySelector(".burguer"),document.querySelector(".linesE"),document.getElementById("festejo");
+!function(){var o=document.getElementById("logoImg");document.querySelector("logo"),document.getElementById("mb-info");window.onscroll=function(){380<document.body.scrollTop||380<document.documentElement.scrollTop?o.style.width="70%":o.style.width="100%"}}();

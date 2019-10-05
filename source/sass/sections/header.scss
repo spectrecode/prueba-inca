@@ -3,6 +3,9 @@ header{
     background-color: $dark-gray ;
     .logo{
       padding-bottom: 10px;
+      img{
+        transition: ease-in-out width .3s;
+      }
     }
     .options{
       font-family: $impact;
@@ -32,6 +35,15 @@ header{
             }
             &:after{
               border:none;
+            }
+          }
+          &:hover{
+            &:before{
+              content: '';
+              position: absolute;
+              border-bottom: 3px solid $wine;
+              width: 100%;
+              bottom: 0;
             }
           }
         }
@@ -81,6 +93,9 @@ header{
       i{
         color:$white;
         font-size:25px;
+      }
+      &.thin{
+        height: 40px;
       }
     }
   }

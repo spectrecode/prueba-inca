@@ -8859,6 +8859,11 @@ header #header .logo {
   padding-bottom: 10px;
 }
 
+header #header .logo img {
+  -webkit-transition: ease-in-out width .3s;
+  transition: ease-in-out width .3s;
+}
+
 header #header .options {
   font-family: "impact";
 }
@@ -8895,6 +8900,14 @@ header #header .options ul li:last-child a {
 
 header #header .options ul li:last-child:after {
   border: none;
+}
+
+header #header .options ul li:hover:before {
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #82191d;
+  width: 100%;
+  bottom: 0;
 }
 
 header #header .mb-info {
@@ -8947,6 +8960,10 @@ header #header .mb-info .carrito span {
 header #header .mb-info i {
   color: #fff;
   font-size: 25px;
+}
+
+header #header .mb-info.thin {
+  height: 40px;
 }
 
 header #bar {
