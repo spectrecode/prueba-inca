@@ -1,0 +1,19 @@
+#news{
+    h3{
+        font-family: $impact;
+        font-size: 25px;
+    }
+    .box_news{
+        padding: 35px;
+        h4{
+            color: $black;
+            font-family: $impact;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        p{
+            font-size: 16px;
+            color: $letter;
+        }
+    }
+}

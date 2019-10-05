@@ -1,0 +1,13 @@
+#banner{
+    background-image: url('../img/banner.png');
+    height: 407px;
+    background-size: cover;
+    color: #fff;
+    img{
+        margin-bottom: 25px;
+    }
+    h3{
+        font-size: 22px;
+        font-family: $arial;
+    }
+}

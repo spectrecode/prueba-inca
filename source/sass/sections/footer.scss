@@ -1,0 +1,55 @@
+#footer{
+    font-size: 15px;
+    background-color: $black;
+    color: $letter;
+    a,p{
+        font-size: 15px;
+    }
+    .tag{
+        color: $white;
+        font-family: $impact;
+    }
+    ul{
+        list-style: none;
+        li{
+            a{
+                color: $letter;
+            }
+        }
+    }
+    .subscribe{
+        > a{
+            font-family: $impact;
+            background-color: $wine;
+            font-size: 18px;
+            color: $white;
+            box-shadow: 0px 4px 0px 0px $dark-wine;
+        }
+        p{
+            a{
+                color: $wine;
+                text-decoration: underline;
+            }
+        }
+        .follow{
+            p{
+                font-family: $impact;
+                color: $white;
+                font-size: 16px;
+            }
+            a{
+                color: $letter;
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+.bar-footer{
+    background-color: $dark-gray;
+    color: $letter;
+    *{
+        font-size: 12px;
+    }
+}
